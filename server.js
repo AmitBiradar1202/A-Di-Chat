@@ -11,7 +11,7 @@ const io = new Server(server, {
   cors: {
     origin: [
       "http://localhost:3000", // Allow local testing
-      "https://thunderous-creponne-749a0d.netlify.app" // Allow Netlify deployment
+      "https://a-di-chat.netlify.app" // New Netlify domain
     ],
     methods: ["GET", "POST"]
   }
@@ -21,7 +21,7 @@ const io = new Server(server, {
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://thunderous-creponne-749a0d.netlify.app"
+    "https://a-di-chat.netlify.app"
   ]
 }));
 
