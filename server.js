@@ -8,7 +8,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://thunderous-creponne-749a0d.netlify.app",
     methods: ["GET", "POST"]
   }
 });
